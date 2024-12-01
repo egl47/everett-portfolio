@@ -1,5 +1,6 @@
 import { Metadata } from 'next'
 import ContactCard from '@/components/contact-card'
+import Image from 'next/image'
 
 export const metadata: Metadata = {
   title: 'Everett Lee',
@@ -28,7 +29,7 @@ export default function Home() {
             </div>
             {/* Right Column: Image */}
             <div className="md:w-1/2 flex justify-center">
-              <img
+              <Image
                 src="/images/profile_mountains.jpeg"
                 alt="Description of image"
                 className="max-w-full h-auto p-8"

@@ -13,8 +13,8 @@ export default function ContactCard() {
   const [message, setMessage] = useState('')
 
   const handleSubmit = () => {
-    console.log('Form submitted:', { email, name, message })
-    alert(`Form submitted!\nEmail: ${email}\nName: ${name}\nMessage: ${message}`)
+    // console.log('Form submitted:', { email, name, message })
+    // alert(`Form submitted!\nEmail: ${email}\nName: ${name}\nMessage: ${message}`)
     // Reset form fields
     setEmail('')
     setName('')
