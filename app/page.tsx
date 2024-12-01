@@ -7,8 +7,8 @@ export const metadata: Metadata = {
 }
 
 export default function Home() {
-  let headerText = "Hi, my name\'s Everett."
-  let descriptionText = `I\'m a Master of Engineering student at Cornell Engineering studying Computer Science with a concentration in Applied AI
+  const headerText = "Hi, my name\'s Everett."
+  const descriptionText = `I\'m a Master of Engineering student at Cornell Engineering studying Computer Science with a concentration in Applied AI
                         , where I also completed my undergrad. I\'m passionate about machine learning, software engineering, and data science.
                         Here, you'll find some of my projects and occasional reflections on technology, design, and more.`
   return (
