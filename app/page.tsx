@@ -33,7 +33,8 @@ export default function Home() {
                 src="/images/profile_mountains.jpeg"
                 alt="Description of image"
                 className="max-w-full h-auto p-8"
-                style={{ maxWidth: '500px', maxHeight: '500px' }}
+                width={450}
+                height={450}
               />
             </div>
           </div>

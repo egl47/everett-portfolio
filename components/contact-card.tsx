@@ -13,8 +13,8 @@ export default function ContactCard() {
   const [message, setMessage] = useState('')
 
   const handleSubmit = () => {
-    // console.log('Form submitted:', { email, name, message })
-    // alert(`Form submitted!\nEmail: ${email}\nName: ${name}\nMessage: ${message}`)
+    console.log('Form submitted:', { email, name, message })
+    alert(`Form submitted!\nEmail: ${email}\nName: ${name}\nMessage: ${message}`)
     // Reset form fields
     setEmail('')
     setName('')
@@ -25,7 +25,7 @@ export default function ContactCard() {
     <Card className="w-full max-w-md mx-auto">
       <CardHeader>
         <CardTitle className="text-xl">Want to get in touch?</CardTitle>
-        <CardDescription>Fill out the form below and I'll get back to you as soon as possible.</CardDescription>
+        <CardDescription>Fill out the form below and I&apos;ll get back to you as soon as possible.</CardDescription>
       </CardHeader>
       <CardContent>
         <form className="space-y-4">
